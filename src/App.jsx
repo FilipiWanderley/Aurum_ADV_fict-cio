@@ -183,7 +183,7 @@ function App() {
           <div className="experts-grid">
             <div className="expert-card">
               <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
                 alt="João Silva" 
                 className="expert-img"
               />
