@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap');
 
 :root {
@@ -5,13 +9,14 @@
   line-height: 1.5;
   font-weight: 400;
   
-  --primary-dark: #0F2B28;
-  --primary-green: #134E4A;
-  --accent-gold: #CFB53B;
+  /* Updated to Navy Blue & Gold Scheme */
+  --primary-dark: #0B1120; /* Deep Navy Blue */
+  --primary-green: #1e3a8a; /* Blue 900 (Replacing Green usage) */
+  --accent-gold: #D4AF37; /* Classic Gold */
   --text-light: #F3F4F6;
   --text-dark: #1F2937;
   --bg-light: #F9FAFB;
-  --bg-dark: #111827;
+  --bg-dark: #0f172a; /* Slate 900 */
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
